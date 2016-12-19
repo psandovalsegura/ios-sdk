@@ -110,7 +110,7 @@ typedef NS_ENUM(NSUInteger, SPTRepeatMode) {
  
  @discussion Login is asynchronous.
  Success will be notified on the `audioStreamingDidLogin:` delegate method and
- failure will be notified on the `audioStreaming:didEncounterError:` delegate method.
+ failure will be notified on the `audioStreaming:didReceiveError:` delegate method.
  
  @param accessToken An authenticated access token authorized with the `streaming` scope.
  */
